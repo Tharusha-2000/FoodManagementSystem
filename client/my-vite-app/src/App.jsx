@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import { BrowserRouter } from 'react-router-dom';
+import Footer from './component/Footer.jsx';
 
 function App() {
  
 
   return (
     <>
-     <p>hi how are you</p>
+     
+      <BrowserRouter>
+       <Footer />
+      </BrowserRouter>
     </>
   )
 }
